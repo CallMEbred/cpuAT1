@@ -1,0 +1,50 @@
+<html lang="en">
+    <head>
+        <title>Complain</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style.css" rel="stylesheet">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <nav>
+            <div id="mySidebar" class="sidebar">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="index.html">Home</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="doesntexist.html">Services</a>
+                <a href="complain.html">Complain</a>
+                <a href="yash.html">Peter</a>
+            </div>
+            <div id="main">
+                <button class="openbtn" onclick="openNav()">&#9776;</button>
+            </div>
+       </nav>
+    <div class="contact-container">
+        <form action="https://api.web3forms.com/submit" method="post" class="contact-left">
+            <input type="hidden" name="access_key" value="766a956a-5b51-4d28-97be-723ae71f1653">
+            <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+            <!-- <input type="hidden" name="redirect" value="website here"> -->
+             <!--USE ABOVE FOR CUSTOM SUBMISSION PAGE-->
+
+          
+            <div class="contact-left-title">
+                <h2>Complain</h2>
+                <hr>
+                </div>
+                <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+                <input type="email" name="name" placeholder="Your Email" class="contact-inputs" required>
+                <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+                <button type="submit"> Submit</button>
+                </form>
+                <div class="contact-right">
+                <img src="placeholder.jpg">
+                </div>
+            </div>
+    </div>
+    <div class="footer">
+        <p>&copy; 2025 Nezh. All rights reserved.</p>
+        <p>Contact: email@here.maybe</p>
+    </div>
+    </body>
+</html>

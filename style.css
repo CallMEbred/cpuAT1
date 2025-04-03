@@ -1,0 +1,247 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: beige;
+}
+.contact-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.contact-left-title h2{
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 5px;
+
+}
+.contact-left-title hr{
+    border: none;
+    width: 120px;
+    height: 5px;
+}
+.contact-inputs{
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: #666;
+    border-radius: 50px;
+
+}
+.contact-left textarea{
+    height: 140;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+.contact-left button{
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #fff;
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: rgb(174, 174, 144);
+
+}
+button{
+    font-size: 120%;
+    font-style: none;
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+}
+
+.button:link{
+    background-color: rgb(51, 74, 148);
+    color: white;
+}
+
+.button:hover{
+    background-color: rgb(120, 110, 212);
+}
+
+nav{
+    width: 100%;
+}
+.cmenu{
+    text-align: center;
+}
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidebar a {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    position: fixed;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+.centered{
+    text-align: center;
+    font-family: serif;
+}
+header{
+    background-color: rgb(192, 192, 165);
+}
+.header {
+    text-align: center;
+    padding: 50px;
+    background-color: rgb(192, 192, 165);
+    color: #fff;
+}
+.header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+.header p {
+    font-size: 1.2em;
+}
+.homeimage{
+    margin: 0 auto;
+    align-items: center;
+    padding: 30px;
+    width: 50%;
+}
+
+.cta {
+    text-align: center;
+    margin: 20px 0;
+}
+.cta button {
+    background-color: #0078D7;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.cta button:hover {
+    background-color: rgb(192, 192, 165);
+}
+.content {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    margin-top: 30px;
+}
+.footer p {
+    margin: 5px;
+    font-size: 0.9em;
+}
+.gallery-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.gallery {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 80%;
+}
+
+.image-container {
+    flex: 0 0 auto;
+    width: 200px;
+    margin: 0 10px;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+  .gallery {
+    display: flex;
+    transition: transform 0.5s ease;
+    width: 1000%; 
+  }
+  .gallery img {
+    width: 30%; 
+    padding: 10px;
+    object-fit: cover;
+  }
+  .gallery-buttons {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+  }
+  .gallery-buttons button {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  .gallery-buttons button:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
