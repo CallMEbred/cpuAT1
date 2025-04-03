@@ -18,6 +18,10 @@ body{
     flex-direction: column;
     align-items: center;
     gap: 20px;
+    
+}
+.donation-options {
+    margin-top: 30px;
 }
 .contact-left-title h2{
     font-weight: 600;
@@ -244,4 +248,17 @@ img {
   }
   .gallery-buttons button:hover {
     background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  .donation{
+    display: flex;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #fff;
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: rgb(174, 174, 144);
+    margin: 0 auto;
   }

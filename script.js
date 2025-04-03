@@ -25,3 +25,6 @@ function previousImage() {
   currentIndex = (currentIndex - 1 + 10) % 10; 
   updateGallery();
 }
+function showAlert() {
+  alert("I won't actually take your money");
+}
