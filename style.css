@@ -262,3 +262,28 @@ img {
     background-color: rgb(174, 174, 144);
     margin: 0 auto;
   }
+  
+.content .text-2 {
+    margin-top: 20px;
+}
+
+
+
+.flexy{
+    display: flex;
+}
+
+.mission-images, .mission-text {
+    flex: 1;
+    padding: 20px;
+}
+.mission-images img {
+    max-width: 45%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.mission-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
